@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@100;200;300;400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    background-color:#161a1a;
+}
+ul {
+    list-style-type: none;
+}
+h1 {
+
+}
+h4{
+    font-weight: bolder;
+}
+button {
+    margin-left: 20px;
+    padding: 10px;
+    width: 90px;
+    border-radius: 20px;
+}
+.navbar {
+    background-color: #161a1a; 
+    max-width: 1416px;
+    margin: 0,auto;  
+    padding: 10px;
+}
+
+.nav-container {
+    
+    display: flex;
+    flex-direction:row;
+    /*Sets the default y axis if flex-direction is row*/
+    justify-content:space-around;
+    /**/
+    align-items: center;
+    
+    margin: 0,auto;  
+    padding: 10px;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+}
+.nav a:hover {
+    color: #982def;
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+.login {
+    border-width: 2px;
+    border-color: white;
+    color:white;
+    background-color: transparent;
+}
+.sign-up {
+    border-width: 0px;
+}
+
+.hero {
+    display:flex;
+    height:500px;
+    background: url(./images/bg.png);
+    background-size:cover;
+    background-position: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-repeat: no-repeat; */
+   
+    
+}
+.heroContent {
+    display: flex;
+    height: 400px;
+    background: url(./images/MB.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    justify-content: center;
+    
+}
+.heroItems {
+    display: flex;
+    flex-direction: column;
+    width: 632px;
+    height: 397px;
+    background: transparent;
+    justify-content: center;
+    margin: 70px;
+
+}
+.heroItems h1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: 0.02em;
+    line-height: 64px;
+    text-align: center;
+    color: #fff;    
+}
